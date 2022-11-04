@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:fontFamily="@font/bmjua"
+            android:text="유머 게시판"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/removeBtn"
+            android:text="삭제하기"
+            android:fontFamily="@font/bmjua"
+            android:textSize="20dp"
+            android:backgroundTint="@color/darkred"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/yellow"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

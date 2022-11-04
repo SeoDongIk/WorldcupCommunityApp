@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181944573314",
+    "project_id": "worldcupcommunity-9df76",
+    "storage_bucket": "worldcupcommunity-9df76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181944573314:android:36b082616399383561839b",
+        "android_client_info": {
+          "package_name": "com.example.androidproject_worldcupcommunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181944573314-mikedf5slcp2vsp0nifdd6c1qigkrbqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidproject_worldcupcommunity",
+            "certificate_hash": "3a416567b6d50de2c0a0d22a197130993d623c50"
+          }
+        },
+        {
+          "client_id": "181944573314-od62f8npoe12slhhld11tg7luu6cjfho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuPbT6LgW0J0fg0f7LfRwirzwQwnqLXoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181944573314-od62f8npoe12slhhld11tg7luu6cjfho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

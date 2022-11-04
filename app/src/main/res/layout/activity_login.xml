@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
+
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua"
+            android:textSize="30dp"
+            android:text="간편하게 로그인하고"/>
+
+        <TextView
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="다양한 서비스를 이용하세요"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kakao_login_btn"
+            android:backgroundTint="@color/yellow"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:drawableLeft="@drawable/kakaotalk_logo_mini"
+            android:fontFamily="@font/bmjua"
+            android:text="카카오톡으로 로그인하기"
+            android:background="@drawable/yellow_button"
+            android:layout_marginBottom="20dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/google_login_btn"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:drawableLeft="@drawable/google_logo_mini"
+            android:text="구글로 로그인하기"
+            android:fontFamily="@font/bmjua"
+            android:background="@drawable/white_button"
+            android:layout_marginBottom="20dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/email_login_btn"
+            android:paddingLeft="37dp"
+            android:paddingRight="25dp"
+            android:drawableLeft="@drawable/email_logo_mini"
+            android:text="이메일로 로그인하기"
+            android:fontFamily="@font/bmjua"
+            android:background="@drawable/white_button"
+            android:layout_marginBottom="80dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/no_account_login"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+</layout>

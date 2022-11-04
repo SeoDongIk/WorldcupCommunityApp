@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/drawerView"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:background="@color/white"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/characterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_color="@color/white"
+                app:civ_fill_color="@color/white"
+                android:src="@drawable/fifa_background"
+                android:layout_width="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="40dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="7dp"
+                    android:gravity="center|left"
+                    android:fontFamily="@font/bmjua"
+                    android:text="우리즈만"
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"/>
+
+                <TextView
+                    android:textSize="11dp"
+                    android:fontFamily="@font/bmjua"
+                    android:paddingLeft="10dp"
+                    android:gravity="center|left"
+                    android:text="후보"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="37dp">
+
+                <TextView
+                    android:id="@+id/allboardBtn"
+                    android:textColor="@color/darkred"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="전체 게시판"
+                    android:fontFamily="@font/bmjua"
+                    android:textSize="12dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/starboardBtn"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="즐겨찾는 게시판"
+                    android:fontFamily="@font/bmjua"
+                    android:textSize="12dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp">
+
+                <LinearLayout
+                    android:id="@+id/allboardLayout"
+                    android:layout_weight="1"
+                    android:background="@color/darkred"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/starboardLayout"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/fragmentContainerView3"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:defaultNavHost="true"
+                    app:navGraph="@navigation/board_nav"/>
+
+                <LinearLayout
+                    android:background="@color/darkred"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:id="@+id/categoryBtn"
+                    android:fontFamily="@font/bmjua"
+                    android:textColor="@color/black"
+                    android:gravity="center|left"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="카테고리 설정"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

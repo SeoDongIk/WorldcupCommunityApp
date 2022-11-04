@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/child_nav"
+    app:startDestination="@id/firstChildFragment">
+
+    <fragment
+        android:id="@+id/firstChildFragment"
+        android:name="com.example.androidproject_worldcupcommunity.FirstChildFragment"
+        android:label="fragment_first_child"
+        tools:layout="@layout/fragment_first_child" >
+        <action
+            android:id="@+id/action_firstChildFragment_to_secondChildFragment"
+            app:destination="@id/secondChildFragment" />
+        <action
+            android:id="@+id/action_firstChildFragment_to_thirdChildFragment"
+            app:destination="@id/thirdChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondChildFragment"
+        android:name="com.example.androidproject_worldcupcommunity.SecondChildFragment"
+        android:label="fragment_second_child"
+        tools:layout="@layout/fragment_second_child" >
+        <action
+            android:id="@+id/action_secondChildFragment_to_firstChildFragment"
+            app:destination="@id/firstChildFragment" />
+        <action
+            android:id="@+id/action_secondChildFragment_to_thirdChildFragment"
+            app:destination="@id/thirdChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdChildFragment"
+        android:name="com.example.androidproject_worldcupcommunity.ThirdChildFragment"
+        android:label="fragment_third_child"
+        tools:layout="@layout/fragment_third_child" >
+        <action
+            android:id="@+id/action_thirdChildFragment_to_firstChildFragment"
+            app:destination="@id/firstChildFragment" />
+        <action
+            android:id="@+id/action_thirdChildFragment_to_secondChildFragment"
+            app:destination="@id/secondChildFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/back_btn_mini.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/btnwrtie_mini.xml" value="0.156" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/button.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/email_logo_mini.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/google_logo_mini.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/kakaotalk_logo_mini.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/plusbtn_mini.xml" value="0.1775" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/drawable/white_button.xml" value="0.2555" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_category.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_character.xml" value="0.19623770842240273" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_email.xml" value="0.264" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_splash.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/activity_write.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/allboarditem.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/categoryitem.xml" value="0.264" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/edittextdialog.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_allboard.xml" value="0.19623770842240273" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_fifth.xml" value="0.3883572567783094" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_first.xml" value="0.2" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_first_child.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_fourth.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_second.xml" value="0.264" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_second_child.xml" value="0.19623770842240273" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_starboard.xml" value="0.19623770842240273" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_third.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/fragment_third_child.xml" value="0.19623770842240273" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/header.xml" value="0.20735356990166737" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/menubarplus.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/menu/first_menu.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/menu/nav_menu_list.xml" value="0.264" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/menu/navigation.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/rico/AndroidStudioProjects/AndroidProject_WORLDCUPCOMMUNITY/app/src/main/res/menu/template_toolbar.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
