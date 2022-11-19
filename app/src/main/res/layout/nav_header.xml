@@ -17,6 +17,7 @@
             android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/characterImage"
                 app:civ_border_color="@color/white"
                 app:civ_fill_color="@color/white"
                 android:src="@drawable/fifa_background"
@@ -31,13 +32,14 @@
                 android:layout_height="45dp">
 
                 <TextView
+                    android:id="@+id/characterName"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:paddingTop="3dp"
                     android:paddingLeft="7dp"
                     android:gravity="center|left"
                     android:fontFamily="@font/bmjua"
-                    android:text="우리즈만"
+                    android:text=""
                     android:layout_width="match_parent"
                     android:layout_height="23dp"/>
 
@@ -132,7 +134,7 @@
                     app:navGraph="@navigation/board_nav"/>
 
                 <LinearLayout
-                    android:background="@color/darkred"
+                    android:background="#EAEAEA"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"/>
 

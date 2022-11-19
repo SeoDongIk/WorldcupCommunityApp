@@ -41,11 +41,16 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.kakao.sdk.user.UserApiClient
+import de.hdodenhof.circleimageview.CircleImageView
 
 class FirstFragment : Fragment() {
 
     private lateinit var binding : FragmentFirstBinding
     private lateinit var callback: OnBackPressedCallback
+    val database = Firebase.database
+    val myRef = database.getReference("character")
+    val characterItems = ArrayList<CharacterData>()
+    val characterkeyList = ArrayList<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -158,6 +163,34 @@ class FirstFragment : Fragment() {
         }
 
         // 캐릭터 설정
+
+        var Cimage = binding.drawerlayout.findViewById<CircleImageView>(R.id.characterImage)
+        var Cname = binding.drawerlayout.findViewById<TextView>(R.id.characterName)
+
+        val postListener = object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                characterItems.clear()
+                characterkeyList.clear()
+                for(dataModel in snapshot.children){
+                    //Log.d("log",dataModel.toString())
+                    //Log.d("log",dataModel.value.toString())
+                    //Log.d("key",dataModel.key.toString())
+                    val key = dataModel.key.toString()
+                    val item = dataModel.getValue(CharacterData::class.java)
+                    characterItems.add(item!!)
+                    characterkeyList.add(key)
+                }
+                Toast.makeText(context, characterItems.toString(), Toast.LENGTH_SHORT).show()
+                for(characteritem in characterItems){
+                    if(characteritem.uid == FBAuth.getUid()){
+                        Cname.setText(characteritem.charcter_name)
+                    }
+                }
+            }
+            override fun onCancelled(error: DatabaseError) {
+            }
+        }
+        myRef.addValueEventListener(postListener)
 
         val characterBtn = binding.drawerlayout.findViewById<LinearLayout>(R.id.characterBtn)
 

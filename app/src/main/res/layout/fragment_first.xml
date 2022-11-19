@@ -285,35 +285,40 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/email_logo" />
+                        android:padding="12dp"
+                        android:src="@drawable/homebutton" />
 
                     <ImageView
+                        android:padding="16dp"
                         android:id="@+id/secondBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/email_logo" />
+                        android:src="@drawable/message" />
 
                     <ImageView
+                        android:padding="12dp"
                         android:id="@+id/thirdBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/email_logo" />
+                        android:src="@drawable/share" />
 
                     <ImageView
+                        android:padding="14dp"
                         android:id="@+id/fourBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/email_logo" />
+                        android:src="@drawable/star" />
 
                     <ImageView
                         android:id="@+id/fiveBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:src="@drawable/email_logo" />
+                        android:padding="14dp"
+                        android:src="@drawable/setting" />
 
                 </LinearLayout>
 

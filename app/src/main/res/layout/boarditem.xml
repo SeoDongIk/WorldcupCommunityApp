@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="4dp"
+                    android:fontFamily="@font/bmjua"
+                    android:textSize="20dp"
+                    android:id="@+id/title"
+                    android:text="[토크] 엘랑가 인터뷰에 대해서"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:paddingTop="4dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="@font/bmjua"
+                    android:textSize="12dp"
+                    android:id="@+id/subTitle"
+                    android:text="말콩말콤 후보 2022.11.18 22:53:33 조회 25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contentImage2"
+                app:cardCornerRadius="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/contentImage"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/rounded"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/rounded"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="7">
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="3dp"
+                android:textColor="@color/black"
+                android:id="@+id/commentNumber"
+                android:text="0"
+                android:gravity="center|bottom"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:paddingTop="1dp"
+                android:text="댓글"
+                android:gravity="center|top"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:background="#EAEAEA"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

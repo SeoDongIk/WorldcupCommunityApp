@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav2"
+    app:startDestination="@id/boardFirstFragment">
+
+    <fragment
+        android:id="@+id/boardFirstFragment"
+        android:name="com.example.androidproject_worldcupcommunity.BoardFirstFragment"
+        android:label="fragment_board_first"
+        tools:layout="@layout/fragment_board_first" >
+        <action
+            android:id="@+id/action_boardFirstFragment_to_secondFragment2"
+            app:destination="@id/secondFragment2" />
+        <action
+            android:id="@+id/action_boardFirstFragment_to_thirdFragment2"
+            app:destination="@id/thirdFragment2" />
+        <action
+            android:id="@+id/action_boardFirstFragment_to_fourthFragment2"
+            app:destination="@id/fourthFragment2" />
+        <action
+            android:id="@+id/action_boardFirstFragment_to_fifthFragment2"
+            app:destination="@id/fifthFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment2"
+        android:name="com.example.androidproject_worldcupcommunity.SecondFragment"
+        android:label="SecondFragment" >
+        <action
+            android:id="@+id/action_secondFragment2_to_boardFirstFragment"
+            app:destination="@id/boardFirstFragment" />
+        <action
+            android:id="@+id/action_secondFragment2_to_thirdFragment2"
+            app:destination="@id/thirdFragment2" />
+        <action
+            android:id="@+id/action_secondFragment2_to_fourthFragment2"
+            app:destination="@id/fourthFragment2" />
+        <action
+            android:id="@+id/action_secondFragment2_to_fourthFragment22"
+            app:destination="@id/fourthFragment2" />
+        <action
+            android:id="@+id/action_secondFragment2_to_fifthFragment2"
+            app:destination="@id/fifthFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment2"
+        android:name="com.example.androidproject_worldcupcommunity.ThirdFragment"
+        android:label="ThirdFragment" >
+        <action
+            android:id="@+id/action_thirdFragment2_to_boardFirstFragment"
+            app:destination="@id/boardFirstFragment" />
+        <action
+            android:id="@+id/action_thirdFragment2_to_secondFragment2"
+            app:destination="@id/secondFragment2" />
+        <action
+            android:id="@+id/action_thirdFragment2_to_fourthFragment2"
+            app:destination="@id/fourthFragment2" />
+        <action
+            android:id="@+id/action_thirdFragment2_to_fifthFragment2"
+            app:destination="@id/fifthFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthFragment2"
+        android:name="com.example.androidproject_worldcupcommunity.FourthFragment"
+        android:label="FourthFragment" >
+        <action
+            android:id="@+id/action_fourthFragment2_to_fifthFragment2"
+            app:destination="@id/fifthFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifthFragment2"
+        android:name="com.example.androidproject_worldcupcommunity.FifthFragment"
+        android:label="FifthFragment" >
+        <action
+            android:id="@+id/action_fifthFragment2_to_boardFirstFragment"
+            app:destination="@id/boardFirstFragment" />
+        <action
+            android:id="@+id/action_fifthFragment2_to_secondFragment2"
+            app:destination="@id/secondFragment2" />
+        <action
+            android:id="@+id/action_fifthFragment2_to_thirdFragment2"
+            app:destination="@id/thirdFragment2" />
+        <action
+            android:id="@+id/action_fifthFragment2_to_fourthFragment2"
+            app:destination="@id/fourthFragment2" />
+    </fragment>
+</navigation>
